@@ -91,6 +91,8 @@ dependencies {
 In `onCreate` of your app just add:
 
 ```java
+import org.woheller69.freeDroidWarn.FreeDroidWarn;
+...
 FreeDroidWarn.showWarningOnUpgrade(this, BuildConfig.VERSION_CODE);
 ```
 
